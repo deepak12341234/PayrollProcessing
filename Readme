@@ -36,3 +36,7 @@ Open your web browser and go to http://localhost:8080.
 
 You will see an option to browse and upload a file.
 After clicking the upload button, the results will be displayed on the same page.
+
+User can upload more files , there is no need to restart the server.
+Used map,list,set datastructure to store employee data from txt or csv file .
+
