@@ -1,0 +1,38 @@
+Technology and Framework Used-------
+Java Version: 17
+Framework: Spring Boot
+Build Tool: Maven
+Project Type: Web Application
+
+
+Architecture-------------
+The project follows the Model-View-Controller  architecture:
+
+Controller Layer---------------
+
+Defines all the endpoints used by the frontend.
+Handles requests from the frontend, such as the "/upload" endpoint for file uploads.
+
+Service Layer------------------
+
+Contains all the business logic, implemented using Java's Stream API.
+
+View Layer---------------
+Uses JSTL (JavaServer Pages Standard Tag Library) to display employee data.
+
+
+Steps to Run the Project-------------
+1-Clone the Project-
+Clone the project repository to your local system.
+2-Run the Application:
+Navigate to the package com.PayrollProcessingSystem.
+Right-click on the PayrollApplication.java file and select "Run As > Java Application".
+
+3-Access the Application:
+
+Open your web browser and go to http://localhost:8080.
+
+4-Upload a File:
+
+You will see an option to browse and upload a file.
+After clicking the upload button, the results will be displayed on the same page.
